@@ -56,7 +56,7 @@ jobs:
 
     steps:
     - name: Checkout patch file
-        uses: actions/checkout@v4
+      uses: actions/checkout@v4
 
     - name: Clone source with tags
       id: clone_source
